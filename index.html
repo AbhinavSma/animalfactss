@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Animal Facts</title>
+  <!-- Link to the external CSS file -->
+  <link rel="stylesheet" href="style.css">
+  <script defer src="scritp.js"></script>
+</head>
+<body>
+  <header  id="topHeader">
+    <h1>Welcome To Animal Facts</h1>
+  </header>
+    <nav class="navbar">
+    <ul>
+        <li><a href="#" onclick="scrollToHeader()">Home</a> </li>
+        <li><a href="#discoveries">Discoveries</a></li>
+        <li><a href="#facts">Facts</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#News">News</a></li>
+    </ul>
+</nav>
+<script>
+function scrollToHeader() {
+    document.getElementById("topHeader").scrollIntoView({ behavior: "smooth" });
+}
+</script>
+  <section id="about">
+    <h2>About This Website</h2>
+    <p>This is a basic website created using HTML and CSS. It is a great starting point for learning website development.</p>
+    <p class="credit">✨ Made by Me ✨</p>
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>Here you can showcase some of your cool projects. For example, your science and facts website or any project you are working on.</p>
+ </section>
+ <section class="animal-section">
+    <div class="animal-card" data-animal="Lion">
+        <img src="lion.jpg" alt="Lion">
+        <h2>Lion</h2>
+        <p>The lion is known as the king of the jungle and can sleep up to 20 hours a day.</p>
+    </div>
+    <div class="animal-card" data-animal="Elephant">
+        <img src="elephant.jpg" alt="Elephant">
+        <h2>Elephant</h2>
+        <p>Elephants have incredible memories and can recognize places and individuals after decades.</p>
+    </div>
+    <div class="animal-card" data-animal="Dolphin">
+        <img src="dolphin.jpg" alt="Dolphin">
+        <h2>Dolphin</h2>
+        <p>Dolphins are highly intelligent and use unique whistles to call each other.</p>
+    </div>
+</section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>You can send an email to <a href="mailto:example@example.com">example@example.com</a> for more details.</p>
+  </section>
+    <section id="Home">
+    <h2>Contact</h2>
+    <p>   </p>
+  </section>
+  <footer>
+    <p>&copy; 2025 My Simple Website</p>
+  </footer>
+</body>
+</html>
