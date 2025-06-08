@@ -8,9 +8,33 @@ body {
     overflow-x: hidden;
     animation: fadeIn 2s ease-in;
 }
+.container {
+    margin-top: 50px;
+}
+
+#searchBox {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
 p {
     font-style: italic;
 }
+.container {
+    margin-top: 50px;
+}
+
+#searchBox {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#results {
+    margin-top: 20px;
+    font-weight: normal;
+}
+
 #search-bar {
     padding: 10px;
     font-size: 16px;
