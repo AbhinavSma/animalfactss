@@ -9,6 +9,11 @@
   <script defer src="scritp.js"></script>
 </head>
 <body>
+  <div class="container">
+        <h2>Search for a Fact</h2>
+        <input type="text" id="searchBox" placeholder="Enter a topic..." onkeyup="searchFact()">
+        <div id="results"></div>
+    </div>
   <header  id="topHeader">
     <h1>Welcome To Animal Facts</h1>
   </header>
@@ -38,7 +43,7 @@ function scrollToHeader() {
  <section class="animal-section">
     <div class="animal-card" data-animal="Lion">
         <img src="lion.jpg" alt="Lion">
-        <h2>Lion</h2>
+        <h2>Lion</h2> 
         <p>The lion is known as the king of the jungle and can sleep up to 20 hours a day.</p>
     </div>
     <div class="animal-card" data-animal="Elephant">
